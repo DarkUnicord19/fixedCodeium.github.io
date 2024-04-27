@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin: 50px auto;
+}
+
+.character {
+    width: 200px;
+    height: 200px;
+    background-color: #8FBC8F;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.head {
+    width: 120px;
+    height: 100px;
+    background-color: #8FBC8F;
+    border-radius: 50%;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+}
+
+.body {
+    width: 200px;
+    height: 100px;
+    background-color: #8FBC8F;
+    position: absolute;
+    top: 90px;
+}
+
+.tentacles {
+    width: 200px;
+    height: 100px;
+    background-color: #8FBC8F;
+    position: absolute;
+    top: 160px;
+}
+
+.dialogue {
+    margin-top: 20px;
+}
+
+.options {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+}
+
+.result {
+    margin-top: 20px;
+}
